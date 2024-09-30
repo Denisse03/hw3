@@ -1,0 +1,60 @@
+#app {
+  h1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+  }
+
+  .form {
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    display: block;
+
+    label {
+      width: 200px;
+      margin: 0 auto;
+      padding-left: 30px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input {
+      margin: 0 auto;
+      display: block;
+      background-color: white;
+      border: solid #000 2px;
+    }
+
+    #submit {
+      margin-top: 20px;
+      width: 100px;
+      border-radius: 10px;
+      background-color: #7695ff;
+    }
+  }
+}
+
+button {
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #7695ff;
+  display: block;
+  margin-bottom: 15px;
+  border: solid #000 2px;
+}
+
+#InfoList {
+  padding-left: 20px;
+}
+
+p {
+  margin-top: 15px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
